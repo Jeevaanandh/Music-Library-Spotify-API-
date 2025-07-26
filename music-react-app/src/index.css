@@ -1,0 +1,158 @@
+.search_bar{
+  width: 85%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-color: black;
+  border-radius: 10px;
+  height: 40px;
+  padding: 10px;
+  font-family: monospace;
+  font-size: large;
+  
+}
+
+
+.parent-div{
+  padding:10px;
+  padding-bottom: 10px;
+}
+
+.search{
+  display: flex;
+  padding: 20px;
+  gap: 10px;
+}
+
+.search-btn{
+  border-radius: 10px;
+  width: 100px;
+  padding: 10px;
+  font-family: monospace;
+  background-color: #2563EB;
+  color: aliceblue;
+  font-size: large;
+  border-color: none;
+  cursor: pointer;
+}
+
+.back-btn{
+  border-radius: 10px;
+  width: 100px;
+  padding: 10px;
+  font-family: monospace;
+  background-color: #2563EB;
+  color: aliceblue;
+  font-size: large;
+  border-color: none;
+}
+
+search-btn:hover {
+  background-color: #2563EB; /* blue-600 */
+}
+
+.album-card{
+  cursor: pointer;
+  padding: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.album-card:hover{
+  transform: scale(1.05); /* slightly enlarge */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* subtle lift */
+  cursor: pointer;
+
+}
+
+
+.blocked {
+  pointer-events: none;      /* Disables all mouse interactions */
+  opacity: 0.4;              /* Visually dim the block */
+  filter: blur(8px);         /* Optional: adds a blur effect */
+}
+
+.Tracks_div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 100vh;
+  
+  z-index: 1000; /* higher than other content */
+  overflow-y: auto; /* scroll if content is long */
+  padding: 20px;
+}
+
+.Fav_div{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 100vh;
+  
+  z-index: 1000; /* higher than other content */
+  overflow-y: auto; /* scroll if content is long */
+  padding: 20px;
+
+}
+
+
+.track-name{
+  font-family: monospace;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.Main-Container{
+  gap: 20px;
+}
+
+.tracks_col{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.add-fav{
+  border-radius: 10px;
+  width: 150px;
+  padding: 10px;
+  font-family: monospace;
+  background-color: #4CAF50;
+  color: aliceblue;
+  font-size: large;
+  border-color: none;
+
+}
+
+
+.show-fav{
+  border-radius: 10px;
+  width: 120px;
+  padding: 10px;
+  font-family: monospace;
+  background-color: #4CAF50;
+  color: aliceblue;
+  font-size: large;
+  border-color: none;
+  cursor: pointer;
+
+}
+
+
+
+
+
+.Fav_div2{
+  display: flex;
+  align-items: center;
+  gap:50px
+}
+
+
+.fav_name{
+  font-size: 25px;
+  font-family: monospace;
+}
+
